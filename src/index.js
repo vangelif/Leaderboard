@@ -9,8 +9,7 @@ const fetchedList = document.getElementById('fetched-list');
 
 // let scoreBoard = [];
 
-const api =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
+const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
 
 const displayScore = async () => {
   fetchedList.innerHTML = '';
