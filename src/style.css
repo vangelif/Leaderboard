@@ -71,11 +71,6 @@ li {
   flex-direction: column;
 }
 
-/* .score-list > ul > li {
-  margin-bottom: 20px;
-  text-align: center;
-} */
-
 .score-list ul li:nth-child(even) {
   background-color: goldenrod;
 }
