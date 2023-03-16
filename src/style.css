@@ -32,7 +32,6 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  border: none;
 }
 
 button:hover {
