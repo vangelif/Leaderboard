@@ -12,7 +12,7 @@ const fetchedList = document.getElementById('fetched-list');
 const api = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/Zl4d7IVkemOTTVg2fUdz/scores/';
 
 const displayScore = async () => {
-  fetchedList.innerHTML = '';
+  // fetchedList.innerHTML = '';
 
   await fetch(api)
     .then((response) => response.json())
@@ -20,8 +20,9 @@ const displayScore = async () => {
       const scoreBoard = json.result;
       scoreBoard.forEach((item) => {
         const list = document.createElement('li');
-        list.innerHTML = `
-        <li>${item.user} ${'scored'} ${item.score} ${'points'}</li><br>`;
+        list.innerHTML = `${item.user} ${'scored'} ${
+          item.score
+        } ${'points'}<br>`;
         fetchedList.appendChild(list);
       });
     });
