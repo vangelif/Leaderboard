@@ -17,11 +17,13 @@ h1 {
   height: 150px;
   text-align: center;
   border-radius: 25px;
+  letter-spacing: 0.4em;
 }
 
 h2 {
   font-size: 30px;
   font-weight: 700;
+  letter-spacing: 0.4em;
 }
 
 button {
@@ -37,13 +39,13 @@ button {
 button:hover {
   background-color: #e6e6e6;
   border: 1px solid black;
-  border-bottom: 5px solid black;
-  border-right: 5px solid black;
+  border-bottom: 7px solid black;
+  border-right: 7px solid black;
   font-weight: 600;
 }
 
 input {
-  width: 20rem;
+  width: 24rem;
   height: 5rem;
   text-align: center;
   font-size: 25px;
@@ -57,11 +59,11 @@ input[type='number'] {
 
 li {
   margin-bottom: 5px;
-  text-align: center;
+  text-align: left;
   background: lightpink;
   font-size: 20px;
   font-weight: 500;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .container {
@@ -101,6 +103,10 @@ li {
   width: 100%;
 }
 
+.right-side h2 {
+  text-align: right;
+}
+
 .left-side > div > h2 {
   width: 45%;
   margin: 1% 1%;
@@ -112,11 +118,17 @@ li {
 
 .right-side {
   width: 48%;
+  padding: 0% 5%;
 }
 
 .right-side > div > form {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 35px;
   height: 100%;
+}
+
+.right-side > div > form > button,
+input {
+  align-self: flex-end;
 }
