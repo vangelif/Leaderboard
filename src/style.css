@@ -7,12 +7,16 @@
 
 body {
   background-color: white;
-  padding: 10% 20%;
+  padding: 1% 2%;
 }
 
 h1 {
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 600;
+  background: conic-gradient(lightpink, white, powderblue);
+  height: 150px;
+  text-align: center;
+  border-radius: 25px;
 }
 
 h2 {
@@ -26,28 +30,39 @@ button {
   font-size: 16px;
   background-color: #c4bebe;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
+  border: none;
 }
 
-input[type='text'],
-input[type='number'] {
-  width: 200px;
-  height: 50px;
-  font-size: 14px;
-  padding: 5px;
-  margin: 5px;
-  border: 1px solid #ccc;
+button:hover {
+  background-color: #e6e6e6;
+  border: 1px solid black;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  font-weight: 600;
+}
+
+input {
+  width: 20rem;
+  height: 5rem;
+  text-align: center;
+  font-size: 25px;
+  border: 8px solid powderblue;
   border-radius: 5px;
 }
 
-ul {
-  margin-bottom: 10px;
+input[type='number'] {
+  border: 8px solid lightpink;
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   text-align: center;
+  background: lightpink;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
 }
 
 .container {
@@ -56,7 +71,7 @@ li {
 }
 
 .score-list {
-  border: 3px solid black;
+  border-right: 3px solid black;
   display: flex;
   flex-direction: column;
 }
@@ -66,17 +81,19 @@ li {
 }
 
 .score-list ul {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .score-list ul li:nth-child(even) {
-  background-color: goldenrod;
+  background: powderblue;
 }
 
 .left-side {
-  width: 47%;
+  width: 48%;
+  border-right: 3px solid black;
 }
 
 .left-side > div {
@@ -95,12 +112,12 @@ li {
 }
 
 .right-side {
-  width: 47%;
+  width: 48%;
 }
 
 .right-side > div > form {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  height: 300px;
+  gap: 50px;
+  height: 100%;
 }
