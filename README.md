@@ -4,14 +4,11 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -30,113 +27,61 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Markup Language</summary>
   <ul>
-    <li><a href="">HTML</a></li>
+    <li><a href="https://html.spec.whatwg.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Graphs</summary>
+  <summary>Style Sheet Language</summary>
   <ul>
-    <li><a href="">CCS</a></li>
+    <li><a href="https://www.w3.org/TR/CSS/#css">CCS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Server</summary>
+<summary>Scipting Language</summary>
   <ul>
-    <li><a href="">JAVASCRIPT</a></li>
+    <li><a href="https://www.javascript.com/">JAVASCRIPT</a></li>
   </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **[Entries are inserted dynamically]**
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- <a href="#">Check out the live demo</a>
+- **[Use of correct Gitflow]**
+- **[Use of linter checks]**
+- **[Use of best practices for HTML/CSS and JavaScript]**
+- **[Use of Webpack configuration]**
+- **[Use of professional documentation]**
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 By following below steps a new developer can make instant use of the project.
 
-Get a local copy up now by following below steps:
+Get a local copy now by following below steps:
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- **[Code Editor: Visual Studio, Atom, Sublime]**
+- **[Git bash]**
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+- **[cd your-folder]**
+- **[git clone https://github.com/vangelif/Leaderboard.git]**
 
 ### Install
 
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+Install dependencies for webpack configuration and linters checks.
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
+To run the project, use Visual Studio Code Liver Server:
 
 ## 👥 Author <a name="authors"></a>
 
@@ -149,11 +94,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [Include API to fetch and post data]
+- [User automatically gets the score]
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome! Feel free to come in touch with the author and arrange a meeting and make your contributions truly valuable.
+Contributions, <a href="https://github.com/vangelif/Leaderboard/issues">issues, and feature requests are welcome</a>! Feel free to come in touch with the author.
 
 ## ⭐️ Show your support <a name="support"></a>
 
