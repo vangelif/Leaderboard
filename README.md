@@ -27,23 +27,23 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+  <summary>Markup Language</summary>
   <ul>
-    <li><a href="">HTML</a></li>
+    <li><a href="https://html.spec.whatwg.org/">HTML</a></li>
   </ul>
 </details>
 
 <details>
-  <summary>Graphs</summary>
+  <summary>Style Sheet Language</summary>
   <ul>
-    <li><a href="">CCS</a></li>
+    <li><a href="https://www.w3.org/TR/CSS/#css">CCS</a></li>
   </ul>
 </details>
 
 <details>
-<summary>Server</summary>
+<summary>Scipting Language</summary>
   <ul>
-    <li><a href="">JAVASCRIPT</a></li>
+    <li><a href="https://www.javascript.com/">JAVASCRIPT</a></li>
   </ul>
 </details>
 
@@ -98,7 +98,7 @@ To run the project, use Visual Studio Code Liver Server:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome! Feel free to come in touch with the author and arrange a meeting and make your contributions truly valuable.
+Contributions, <a href="https://github.com/vangelif/Leaderboard/issues">issues, and feature requests are welcome</a>! Feel free to come in touch with the author.
 
 ## ⭐️ Show your support <a name="support"></a>
 
