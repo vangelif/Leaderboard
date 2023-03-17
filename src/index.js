@@ -20,9 +20,21 @@ const displayScore = async () => {
       const scoreBoard = json.result;
       scoreBoard.forEach((item) => {
         const list = document.createElement('li');
+        let emoji = '';
+        if (item.score > 15000) {
+          emoji = '🎉';
+        } else if (item.score > 10000) {
+          emoji = '💎';
+        } else if (item.score > 5000) {
+          emoji = '🎊';
+        } else if (item.score > 2000) {
+          emoji = '🎖️';
+        } else if (item.score > 1000) {
+          emoji = '🎈';
+        }
         list.innerHTML = `${item.user} ${'scored'} ${
           item.score
-        } ${'points'}<br>`;
+        } ${'points'}${emoji}<br>`;
         fetchedList.appendChild(list);
       });
     });
