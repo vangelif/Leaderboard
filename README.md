@@ -4,6 +4,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -54,6 +55,10 @@
 - **[Use of best practices for HTML/CSS and JavaScript]**
 - **[Use of Webpack configuration]**
 - **[Use of professional documentation]**
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- <a href="https://vangelif.github.io/Leaderboard/">Check out the live demo</a> 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
