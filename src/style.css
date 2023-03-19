@@ -71,6 +71,7 @@ li {
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
+
   /* white-space: nowrap; */
   text-overflow: ellipsis;
 }
